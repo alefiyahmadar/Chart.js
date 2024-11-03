@@ -1,7 +1,7 @@
-11282
+11283
 105C:\Users\Admin\Documents\GitHub\Chart.js\node_modules\css-select\node_modules\domutils\lib\esm\index.d.ts133749229108310828 0
 84C:\Users\Admin\Documents\GitHub\Chart.js\node_modules\nth-check\lib\esm\index.js.map133749229064545597 0
-63C:\Users\Admin\Documents\GitHub\Chart.js\dist\index.a521242b.js133750913783966818 0
+63C:\Users\Admin\Documents\GitHub\Chart.js\dist\index.a521242b.js133750994658154663 0
 99C:\Users\Admin\Documents\GitHub\Chart.js\node_modules\caniuse-lite\data\features\rest-parameters.js133749229166144504 0
 72C:\Users\Admin\Documents\GitHub\Chart.js\node_modules\ramda\es\length.js133749229143670566 0
 76C:\Users\Admin\Documents\GitHub\Chart.js\node_modules\to-regex-range\LICENSE133749229037612194 0
@@ -30,13 +30,13 @@
 62C:\Users\Admin\Documents\GitHub\Chart.js\node_modules\svgo\lib133749229079140056 1
 76C:\Users\Admin\Documents\GitHub\Chart.js\node_modules\parent-module\index.js133749229032853490 0
 88C:\Users\Admin\Documents\GitHub\Chart.js\node_modules\@parcel\package-manager\index.d.ts133749229110653298 0
-45C:\Users\Admin\Documents\GitHub\Chart.js\dist133750913784126373 1
+45C:\Users\Admin\Documents\GitHub\Chart.js\dist133750994658291385 1
 63C:\Users\Admin\Documents\GitHub\Chart.js\node_modules\picomatch133749229058255904 1
 90C:\Users\Admin\Documents\GitHub\Chart.js\node_modules\caniuse-lite\data\features\bigint.js133749229100308066 0
 98C:\Users\Admin\Documents\GitHub\Chart.js\node_modules\core-js\internals\v8-prototype-define-bug.js133749229282632112 0
 90C:\Users\Admin\Documents\GitHub\Chart.js\node_modules\chart.js\dist\core\core.element.d.ts133749229124016772 0
 69C:\Users\Admin\Documents\GitHub\Chart.js\node_modules\posthtml-render133749229052208785 1
-67C:\Users\Admin\Documents\GitHub\Chart.js\dist\index.a521242b.js.map133750913784106426 0
+67C:\Users\Admin\Documents\GitHub\Chart.js\dist\index.a521242b.js.map133750994658255687 0
 72C:\Users\Admin\Documents\GitHub\Chart.js\node_modules\ramda\src\props.js133749229155536862 0
 100C:\Users\Admin\Documents\GitHub\Chart.js\node_modules\@parcel\transformer-js\lib\esmodule-helpers.js133749229064601128 0
 109C:\Users\Admin\Documents\GitHub\Chart.js\node_modules\css-select\node_modules\domutils\lib\esm\index.d.ts.map133749229101105314 0
@@ -100,7 +100,7 @@
 84C:\Users\Admin\Documents\GitHub\Chart.js\node_modules\@parcel\workers\src\backend.js133749229058498916 0
 93C:\Users\Admin\Documents\GitHub\Chart.js\node_modules\css-tree\lib\syntax\atrule\font-face.js133749229125949487 0
 72C:\Users\Admin\Documents\GitHub\Chart.js\node_modules\ramda\src\pipeK.js133749229154181905 0
-60C:\Users\Admin\Documents\GitHub\Chart.js\src\acquisitions.js133750913781684174 0
+60C:\Users\Admin\Documents\GitHub\Chart.js\src\acquisitions.js133750994656016882 0
 116C:\Users\Admin\Documents\GitHub\Chart.js\node_modules\css-select\node_modules\entities\lib\decode_codepoint.d.ts.map133749229097601295 0
 131C:\Users\Admin\Documents\GitHub\Chart.js\node_modules\@parcel\core\test\fixtures\plugins\node_modules\parcel-transformer-no-engines133749229135279692 1
 70C:\Users\Admin\Documents\GitHub\Chart.js\node_modules\ramda\src\not.js133749229151166670 0
@@ -109,7 +109,7 @@
 92C:\Users\Admin\Documents\GitHub\Chart.js\node_modules\core-js\modules\es.reflect.own-keys.js133749229178170374 0
 75C:\Users\Admin\Documents\GitHub\Chart.js\node_modules\svgo\lib\svgo-node.js133749229074755012 0
 87C:\Users\Admin\Documents\GitHub\Chart.js\node_modules\ramda\es\internal\_toISOString.js133749229115835997 0
-55C:\Users\Admin\Documents\GitHub\Chart.js\src\index.html133750890050482478 0
+55C:\Users\Admin\Documents\GitHub\Chart.js\src\index.html133750950062154183 0
 93C:\Users\Admin\Documents\GitHub\Chart.js\node_modules\core-js\stable\string\virtual\strike.js133749229272284444 0
 72C:\Users\Admin\Documents\GitHub\Chart.js\node_modules\ramda\es\insert.js133749229141071725 0
 74C:\Users\Admin\Documents\GitHub\Chart.js\node_modules\source-map\README.md133749229033955518 0
@@ -8309,6 +8309,7 @@
 84C:\Users\Admin\Documents\GitHub\Chart.js\node_modules\core-js\features\map\update.js133749229282320518 0
 84C:\Users\Admin\Documents\GitHub\Chart.js\node_modules\core-js\es\instance\unshift.js133749229282019577 0
 84C:\Users\Admin\Documents\GitHub\Chart.js\node_modules\core-js\features\json\index.js133749229225145523 0
+75C:\Users\Admin\Documents\GitHub\Chart.js\dist\index.a521242b.js.map.6596.2u133750916745501040 0
 82C:\Users\Admin\Documents\GitHub\Chart.js\node_modules\core-js\actual\json\parse.js133749229262332877 0
 90C:\Users\Admin\Documents\GitHub\Chart.js\node_modules\core-js\features\json\is-raw-json.js133749229248924818 0
 92C:\Users\Admin\Documents\GitHub\Chart.js\node_modules\@swc\helpers\cjs\_get_prototype_of.cjs133749229127991912 0
@@ -11280,4 +11281,4 @@
 81C:\Users\Admin\Documents\GitHub\Chart.js\node_modules\.bin\update-browserslist-db133749229285678277 0
 85C:\Users\Admin\Documents\GitHub\Chart.js\node_modules\.bin\update-browserslist-db.cmd133749229285668315 0
 85C:\Users\Admin\Documents\GitHub\Chart.js\node_modules\.bin\update-browserslist-db.ps1133749229285668315 0
-56C:\Users\Admin\Documents\GitHub\Chart.js\dist\index.html133750890052742304 0
+56C:\Users\Admin\Documents\GitHub\Chart.js\dist\index.html133750950070388159 0

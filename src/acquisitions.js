@@ -5,7 +5,7 @@ import Chart from 'chart.js/auto'
 (async function() {
   var startDate = document.querySelector("#dt-start")
   var EndDate = document.querySelector("#dt-end")
-  var DtBtn = document.querySelector("#dateBtn")
+  var Result = document.querySelector("#result")
   const data = [
     { year: 2010, count: 10 },
     { year: 2011, count: 20 },
@@ -16,10 +16,12 @@ import Chart from 'chart.js/auto'
     { year: 2016, count: 28 },
   ];
 
-  const getDateData =()=>{
-
-    const startDt = startDate.value.split("-").join("")
-    console.log(startDt)
+  const CalculateDays =()=>{
+const startDt = new Date(startDate.value)
+const endDate = new Date(EndDate.value)
+    
+console.log(startDt , endDate)
+    
   }
   new Chart(
     document.getElementById('acquisitions'),
@@ -33,9 +35,9 @@ import Chart from 'chart.js/auto'
             data: data.map(row => row.count)
           }
         ]
-      }
+        }
     }
   );
-  DtBtn.addEventListener("click" ,getDateData )
-
+  
+EndDate.addEventListener("change" , CalculateDays)
 })();

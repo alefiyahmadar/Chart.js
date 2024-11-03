@@ -590,7 +590,7 @@ var _autoDefault = parcelHelpers.interopDefault(_auto);
 (async function() {
     var startDate = document.querySelector("#dt-start");
     var EndDate = document.querySelector("#dt-end");
-    var DtBtn = document.querySelector("#dateBtn");
+    var Result = document.querySelector("#result");
     const data = [
         {
             year: 2010,
@@ -621,9 +621,10 @@ var _autoDefault = parcelHelpers.interopDefault(_auto);
             count: 28
         }
     ];
-    const getDateData = ()=>{
-        const startDt = startDate.value.split("-").join("");
-        console.log(startDt);
+    const CalculateDays = ()=>{
+        const startDt = new Date(startDate.value);
+        const endDate = new Date(EndDate.value);
+        console.log(startDt, endDate);
     };
     new (0, _autoDefault.default)(document.getElementById("acquisitions"), {
         type: "pie",
@@ -637,7 +638,7 @@ var _autoDefault = parcelHelpers.interopDefault(_auto);
             ]
         }
     });
-    DtBtn.addEventListener("click", getDateData);
+    EndDate.addEventListener("change", CalculateDays);
 })();
 
 },{"chart.js/auto":"d8NN9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"d8NN9":[function(require,module,exports) {
