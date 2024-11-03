@@ -624,7 +624,13 @@ var _autoDefault = parcelHelpers.interopDefault(_auto);
     const CalculateDays = ()=>{
         const startDt = new Date(startDate.value);
         const endDate = new Date(EndDate.value);
-        console.log(startDt, endDate);
+        if (isNaN(startDt) || isNaN(endDate)) {
+            Result.textContent = `Please select both the dates`;
+            return;
+        }
+        const Difference = (endDate - startDt) / 86400000;
+        console.log(Difference);
+        Result.textContent = `Number of days:${Difference}`;
     };
     new (0, _autoDefault.default)(document.getElementById("acquisitions"), {
         type: "pie",
@@ -639,6 +645,7 @@ var _autoDefault = parcelHelpers.interopDefault(_auto);
         }
     });
     EndDate.addEventListener("change", CalculateDays);
+    startDate.addEventListener("change", CalculateDays);
 })();
 
 },{"chart.js/auto":"d8NN9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"d8NN9":[function(require,module,exports) {

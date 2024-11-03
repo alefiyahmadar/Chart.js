@@ -19,9 +19,20 @@ import Chart from 'chart.js/auto'
   const CalculateDays =()=>{
 const startDt = new Date(startDate.value)
 const endDate = new Date(EndDate.value)
+
+
+if(isNaN(startDt) || isNaN(endDate)){
+
+  Result.textContent= `Please select both the dates`
+  return;
+}
+
     
-console.log(startDt , endDate)
-    
+const Difference = (endDate - startDt) / (1000 * 60 * 60 * 24)
+
+console.log(Difference)    
+
+Result.textContent =`Number of days:${Difference}`
   }
   new Chart(
     document.getElementById('acquisitions'),
@@ -40,4 +51,5 @@ console.log(startDt , endDate)
   );
   
 EndDate.addEventListener("change" , CalculateDays)
+startDate.addEventListener("change" , CalculateDays)
 })();
