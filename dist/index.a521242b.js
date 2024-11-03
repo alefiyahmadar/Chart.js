@@ -587,8 +587,10 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _auto = require("chart.js/auto");
 var _autoDefault = parcelHelpers.interopDefault(_auto);
-const DateInput = document.getElementsById("dt");
-console.log(DateInput)(async function() {
+(async function() {
+    var startDate = document.querySelector("#dt-start");
+    var EndDate = document.querySelector("#dt-end");
+    var DtBtn = document.querySelector("#dateBtn");
     const data = [
         {
             year: 2010,
@@ -619,6 +621,10 @@ console.log(DateInput)(async function() {
             count: 28
         }
     ];
+    const getDateData = ()=>{
+        const startDt = startDate.value.split("-").join("");
+        console.log(startDt);
+    };
     new (0, _autoDefault.default)(document.getElementById("acquisitions"), {
         type: "pie",
         data: {
@@ -631,6 +637,7 @@ console.log(DateInput)(async function() {
             ]
         }
     });
+    DtBtn.addEventListener("click", getDateData);
 })();
 
 },{"chart.js/auto":"d8NN9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"d8NN9":[function(require,module,exports) {

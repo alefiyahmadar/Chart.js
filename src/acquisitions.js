@@ -1,7 +1,11 @@
-import Chart from "chart.js/auto";
-const DateInput = document.getElementsById("dt")
-console.log(DateInput)
-(async function () {
+import Chart from 'chart.js/auto'
+
+
+
+(async function() {
+  var startDate = document.querySelector("#dt-start")
+  var EndDate = document.querySelector("#dt-end")
+  var DtBtn = document.querySelector("#dateBtn")
   const data = [
     { year: 2010, count: 10 },
     { year: 2011, count: 20 },
@@ -12,17 +16,26 @@ console.log(DateInput)
     { year: 2016, count: 28 },
   ];
 
+  const getDateData =()=>{
 
-  new Chart(document.getElementById("acquisitions"), {
-    type: "pie",
-    data: {
-      labels: data.map((row) => row.year),
-      datasets: [
-        {
-          label: "Acquisitions by year",
-          data: data.map((row) => row.count),
-        },
-      ],
-    },
-  });
+    const startDt = startDate.value.split("-").join("")
+    console.log(startDt)
+  }
+  new Chart(
+    document.getElementById('acquisitions'),
+    {
+      type: 'pie',
+      data: {
+        labels: data.map(row => row.year),
+        datasets: [
+          {
+            label: 'Acquisitions by year',
+            data: data.map(row => row.count)
+          }
+        ]
+      }
+    }
+  );
+  DtBtn.addEventListener("click" ,getDateData )
+
 })();
